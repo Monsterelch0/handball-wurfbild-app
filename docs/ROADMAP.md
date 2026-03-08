@@ -1,6 +1,6 @@
 # Entwicklungs-Roadmap: Handball Wurfbild-Analyse App
 
-**Version:** 1.0
+**Version:** 1.1
 **Datum:** 2026-03-08
 
 ---
@@ -36,24 +36,24 @@ Planung       Setup         Datenmodell    Spielverw.
 
 ---
 
-## Phase 1 – Projekt-Setup & PWA-Grundgeruest
+## Phase 1 – Projekt-Setup & PWA-Grundgerüst ✅
 
 **Ziel:** Lauffaehige Basis-App, die als PWA auf dem iPad installierbar ist.
 
 **Aufgaben:**
-- [ ] Vite + React + TypeScript Projekt initialisieren
-- [ ] Tailwind CSS einrichten
-- [ ] ESLint + Prettier konfigurieren
-- [ ] PWA-Manifest erstellen (Icons, Farben, Splash-Screen)
-- [ ] Service Worker einrichten (Workbox)
-- [ ] Basis-Routing einrichten (React Router)
-- [ ] Leere Seiten-Struktur anlegen (Startseite, Tracking, Analyse, Einstellungen)
-- [ ] Grundlegendes Layout (Navigation, Header) erstellen
-- [ ] CI/CD Pipeline aufsetzen (GitHub Actions: Lint + Build)
+- [x] Vite + React + TypeScript Projekt initialisieren
+- [x] Tailwind CSS einrichten
+- [x] ESLint + Prettier konfigurieren
+- [x] PWA-Manifest erstellen (Icons, Farben, Splash-Screen)
+- [x] Service Worker einrichten (Workbox via vite-plugin-pwa)
+- [x] Basis-Routing einrichten (React Router v6)
+- [x] Leere Seiten-Struktur anlegen (Startseite, Tracking, Analyse, Einstellungen)
+- [x] Grundlegendes Layout (AppLayout, Header, BottomNav) erstellen
+- [x] CI/CD Pipeline aufsetzen (GitHub Actions: Lint + Build)
 
 **User Stories:** US-01, US-02
 
-**Git-Branch:** `feature/phase-1-setup`
+**Git-Branch:** `feature/phase-1-setup` → gemergt in `develop` → `main`
 
 ---
 
