@@ -1,6 +1,6 @@
 # Entwicklungs-Roadmap: Handball Wurfbild-Analyse App
 
-**Version:** 1.2
+**Version:** 1.3
 **Datum:** 2026-03-08
 
 ---
@@ -123,21 +123,21 @@ interface SevenMeter {
 
 ---
 
-## Phase 3 – Spielverwaltung
+## Phase 3 – Spielverwaltung ✅
 
 **Ziel:** Nutzer kann Spiele anlegen, Kader importieren und den Spielstand verfolgen.
 
 **Aufgaben:**
-- [ ] Startseite: Spieluebersicht (Liste + "Neues Spiel" Button)
-- [ ] Formular: Neues Spiel anlegen
-- [ ] Kader-Import per CSV/XLSX (Papa Parse / SheetJS)
-- [ ] Spieler manuell hinzufuegen / bearbeiten / loeschen
-- [ ] Spielstand-Anzeige mit +/- Buttons
-- [ ] Spielzeit-Timer (1. / 2. Halbzeit, Pause)
+- [x] Startseite: Spieluebersicht (Liste + "Neues Spiel" Button)
+- [x] Formular: Neues Spiel anlegen
+- [x] Kader-Import per CSV/XLSX (Papa Parse / SheetJS)
+- [x] Spieler manuell hinzufuegen / bearbeiten / loeschen
+- [x] Spielstand-Anzeige mit +/- Buttons
+- [x] Spielzeit-Timer (1. / 2. Halbzeit, Pause)
 
 **User Stories:** US-03, US-04, US-05, US-06, US-07
 
-**Git-Branch:** `feature/phase-3-game-management`
+**Git-Branch:** `feature/phase-3-game-management` → gemergt in `develop` → `main`
 
 ---
 
