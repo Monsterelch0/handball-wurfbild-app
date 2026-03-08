@@ -1,6 +1,6 @@
 # Entwicklungs-Roadmap: Handball Wurfbild-Analyse App
 
-**Version:** 1.1
+**Version:** 1.2
 **Datum:** 2026-03-08
 
 ---
@@ -57,18 +57,19 @@ Planung       Setup         Datenmodell    Spielverw.
 
 ---
 
-## Phase 2 – Datenmodell & lokale Datenbank
+## Phase 2 – Datenmodell & lokale Datenbank ✅
 
 **Ziel:** Alle Daten koennen lokal gespeichert und abgerufen werden.
 
 **Aufgaben:**
-- [ ] Datenmodell finalisieren (Spiel, Spieler, Wurf, 7m-Situation)
-- [ ] Dexie.js installieren und konfigurieren
-- [ ] IndexedDB-Schema erstellen
-- [ ] CRUD-Operationen fuer alle Entitaeten implementieren
-- [ ] Custom Hooks fuer Datenzugriff (useGame, usePlayer, useShot)
-- [ ] Beispieldaten (Seed) fuer Entwicklungs-Tests
+- [x] Datenmodell finalisieren (Spiel, Spieler, Wurf, 7m-Situation)
+- [x] Dexie.js installieren und konfigurieren
+- [x] IndexedDB-Schema erstellen
+- [x] CRUD-Operationen fuer alle Entitaeten implementieren
+- [x] Custom Hooks fuer Datenzugriff (useGame, usePlayer, useShot, useSevenMeters)
+- [x] Beispieldaten (Seed) fuer Entwicklungs-Tests
 
+**Git-Branch:** `feature/phase-2-database` → gemergt in `develop` → `main`
 **Datenmodell (Entwurf):**
 ```typescript
 interface Game {
